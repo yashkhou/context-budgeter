@@ -34,3 +34,12 @@ python -m unittest discover -s tests -v
 ```
 
 MIT licensed.
+
+
+## v0.1.1
+
+**Dependency-aware context optimization.** A new optimizer selects whole chunks, suppresses lower-priority near-duplicates, resolves required context dependencies, and fails fast on missing or cyclic dependencies.
+
+```bash
+PYTHONPATH=src python -m unittest discover -s tests -v
+```
