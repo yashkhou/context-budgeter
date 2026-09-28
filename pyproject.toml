@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "context-budgeter"
+version = "0.1.0"
+description = "Inspect an agent context bundle as a budget: source allocation, redundancy and conflicting policy text before tokens are spent."
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "yashkhou"}]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

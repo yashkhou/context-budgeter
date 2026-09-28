@@ -1,0 +1,33 @@
+[
+  {
+    "id": "system",
+    "source": "policy",
+    "priority": 100,
+    "reserve": 50,
+    "text": "deny network access"
+  },
+  {
+    "id": "operator",
+    "source": "user",
+    "priority": 80,
+    "text": "Summarize the build results and cite tests."
+  },
+  {
+    "id": "retrieval-1",
+    "source": "web",
+    "priority": 20,
+    "text": "The package supports deterministic replay of tool calls."
+  },
+  {
+    "id": "retrieval-2",
+    "source": "web",
+    "priority": 10,
+    "text": "The package supports deterministic replay of tool calls."
+  },
+  {
+    "id": "legacy",
+    "source": "policy",
+    "priority": 5,
+    "text": "allow network access"
+  }
+]
