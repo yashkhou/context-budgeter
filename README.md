@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **This project now lives in [agent-reliability-lab](https://github.com/yashkhou/agent-reliability-lab/tree/main/packages/context-budgeter).** Its full history was moved there and this repository is archived.
+>
+> `pip install "git+https://github.com/yashkhou/agent-reliability-lab#subdirectory=packages/context-budgeter"`
+
+
 # context-budgeter
 
 Inspect an agent context bundle as a budget: source allocation, redundancy and conflicting policy text before tokens are spent.
